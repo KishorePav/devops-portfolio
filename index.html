@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Independent DevOps, cloud infrastructure and CI/CD consulting by senior software and platform engineer Kishore Choudhury.">
+    <meta name="theme-color" content="#07111f">
+    <meta property="og:title" content="Kishore Choudhury — DevOps & Cloud Consulting">
+    <meta property="og:description" content="Practical cloud delivery, Kubernetes, CI/CD and observability for teams that need reliable production systems.">
+    <meta property="og:type" content="website">
+    <title>Kishore Choudhury | DevOps & Cloud Consulting</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kishore Choudhury, home">
+        <span class="brand-mark" aria-hidden="true">KC</span>
+        <span><strong>Kishore Choudhury</strong><small>DevOps & Cloud Consulting</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Case studies</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Discuss a project</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Independent DevOps consulting</p>
+          <h1>Reliable delivery systems for teams that need to <em>ship with confidence.</em></h1>
+          <p class="hero-lead">I help teams automate cloud infrastructure, strengthen CI/CD, operate Kubernetes and make production systems observable—from application code to the platform running it.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Discuss your platform</a>
+            <a class="button button-secondary" href="#work">Review engineering work</a>
+          </div>
+          <ul class="proof-strip" aria-label="Experience highlights">
+            <li><strong>9+ years</strong><span>Engineering systems</span></li>
+            <li><strong>AWS + GCP</strong><span>Multi-cloud delivery</span></li>
+            <li><strong>Code to cloud</strong><span>Application-aware DevOps</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-console reveal delay-one" aria-label="Example delivery pipeline">
+          <div class="console-bar"><span></span><span></span><span></span><small>delivery.pipeline</small></div>
+          <div class="console-body">
+            <p><span class="prompt">$</span> platform deploy --environment production</p>
+            <p class="muted">→ validating infrastructure plan</p>
+            <p><span class="ok">✓</span> policy and security gates passed</p>
+            <p><span class="ok">✓</span> immutable artifact verified</p>
+            <p><span class="ok">✓</span> progressive rollout healthy</p>
+            <div class="pipeline-visual" aria-hidden="true">
+              <div><i>01</i><b>Build</b><span>tested</span></div>
+              <div><i>02</i><b>Secure</b><span>scanned</span></div>
+              <div><i>03</i><b>Deploy</b><span>verified</span></div>
+              <div><i>04</i><b>Observe</b><span>healthy</span></div>
+            </div>
+            <p class="success-line">Deployment completed without manual intervention.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-bar" aria-label="Core technologies">
+        <div class="signal-track">
+          <span>AWS</span><i></i><span>GCP</span><i></i><span>Terraform</span><i></i><span>Kubernetes</span><i></i><span>Docker</span><i></i><span>Helm</span><i></i><span>GitHub Actions</span><i></i><span>Azure DevOps</span><i></i><span>OpenTelemetry</span>
+        </div>
+      </section>
+
+      <section id="services" class="section-shell section-block">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Consulting services</p>
+          <h2>Focused help where delivery systems usually break.</h2>
+          <p>Engagements can be a targeted audit, an implementation project or ongoing platform support.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="card-index">01</span>
+            <div class="service-icon" aria-hidden="true">↗</div>
+            <h3>CI/CD engineering</h3>
+            <p>Build reproducible delivery pipelines with immutable artifacts, quality gates, environment controls, deployment verification and rollback.</p>
+            <ul><li>Azure DevOps, GitHub Actions, Jenkins</li><li>Release versioning and traceability</li><li>Security scanning and policy gates</li></ul>
+          </article>
+          <article class="service-card reveal delay-one">
+            <span class="card-index">02</span>
+            <div class="service-icon" aria-hidden="true">◇</div>
+            <h3>Cloud & infrastructure</h3>
+            <p>Design and automate secure AWS or GCP foundations that teams can operate without depending on undocumented manual steps.</p>
+            <ul><li>Terraform and infrastructure as code</li><li>IAM, networking and managed services</li><li>Cost and reliability trade-offs</li></ul>
+          </article>
+          <article class="service-card reveal delay-two">
+            <span class="card-index">03</span>
+            <div class="service-icon" aria-hidden="true">⬡</div>
+            <h3>Kubernetes platforms</h3>
+            <p>Containerise workloads and improve Kubernetes delivery with Helm, workload hardening, health checks, scaling and operational runbooks.</p>
+            <ul><li>EKS and GKE deployments</li><li>Helm charts and release strategy</li><li>Availability and security controls</li></ul>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">04</span>
+            <div class="service-icon" aria-hidden="true">⌁</div>
+            <h3>Observability & reliability</h3>
+            <p>Turn logs, metrics and traces into an investigation path connected to service objectives and actionable alerts.</p>
+            <ul><li>OpenTelemetry and distributed tracing</li><li>Prometheus, Grafana and SLOs</li><li>Load testing and incident readiness</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="work-section section-block">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> Selected engineering work</p>
+            <h2>Reference implementations built to production-minded standards.</h2>
+            <p>Every project is public, documented and validated by CI. Cloud execution is optional and clearly separated from local verification.</p>
+          </div>
+
+          <article class="case-study reveal">
+            <div class="case-number">01</div>
+            <div class="case-copy">
+              <div class="case-meta"><span>AWS</span><span>Kubernetes</span><span>Terraform</span></div>
+              <h3>Production-ready EKS delivery platform</h3>
+              <p class="case-summary">A secure path from source code to Amazon EKS with immutable images, infrastructure as code, hardened workloads and atomic Helm releases.</p>
+              <dl class="case-results">
+                <div><dt>Delivery</dt><dd>Commit-SHA artifacts and OIDC</dd></div>
+                <div><dt>Reliability</dt><dd>Probes, HPA, PDB and rollback</dd></div>
+                <div><dt>Security</dt><dd>Non-root runtime and CI scanning</dd></div>
+              </dl>
+              <a class="text-link" href="https://github.com/KishorePav/devops-portfolio-platform" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
+            </div>
+            <div class="architecture-card" aria-label="AWS platform architecture">
+              <span class="arch-label">Delivery path</span>
+              <div class="arch-row"><b>GitHub</b><i>→</i><b>Actions</b><i>→</i><b>ECR</b></div>
+              <div class="arch-line"></div>
+              <div class="arch-cluster"><small>AWS VPC</small><strong>Amazon EKS</strong><div><span>Helm</span><span>HPA</span><span>PDB</span></div></div>
+            </div>
+          </article>
+
+          <article class="case-study reveal">
+            <div class="case-number">02</div>
+            <div class="case-copy">
+              <div class="case-meta"><span>GCP</span><span>Dataflow</span><span>Apache Beam</span></div>
+              <h3>Dataflow Flex Template delivery lifecycle</h3>
+              <p class="case-summary">A generic streaming pipeline and deployment workflow that versions Flex Templates, validates events and safely replaces an active named job.</p>
+              <dl class="case-results">
+                <div><dt>Streaming</dt><dd>Pub/Sub to validated GCS routes</dd></div>
+                <div><dt>Lifecycle</dt><dd>Detect, cancel, wait and redeploy</dd></div>
+                <div><dt>Configuration</dt><dd>Environment data supplied at CD</dd></div>
+              </dl>
+              <a class="text-link" href="https://github.com/KishorePav/gcp-dataflow-flex-template-cicd" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
+            </div>
+            <div class="architecture-card dataflow-card" aria-label="Dataflow delivery architecture">
+              <span class="arch-label">Streaming path</span>
+              <div class="stream-node">Pub/Sub events</div><i class="down-arrow">↓</i>
+              <div class="stream-node active">Beam on Dataflow</div><i class="down-arrow">↓</i>
+              <div class="stream-split"><span>Valid / GCS</span><span>Invalid / GCS</span></div>
+            </div>
+          </article>
+
+          <article class="case-study reveal">
+            <div class="case-number">03</div>
+            <div class="case-copy">
+              <div class="case-meta"><span>OpenTelemetry</span><span>Prometheus</span><span>Grafana</span></div>
+              <h3>Cloud-native observability and SLO lab</h3>
+              <p class="case-summary">A two-service reliability lab connecting RED metrics, distributed traces and structured logs to explicit availability and latency objectives.</p>
+              <dl class="case-results">
+                <div><dt>Availability</dt><dd>99% success objective</dd></div>
+                <div><dt>Latency</dt><dd>P95 below 500 ms objective</dd></div>
+                <div><dt>Response</dt><dd>Controlled failure investigation</dd></div>
+              </dl>
+              <a class="text-link" href="https://github.com/KishorePav/cloud-native-observability-lab" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
+            </div>
+            <div class="architecture-card metric-card" aria-label="Observability signal preview">
+              <span class="arch-label">Service signals</span>
+              <div class="mini-chart"><span style="--h:35%"></span><span style="--h:48%"></span><span style="--h:42%"></span><span style="--h:66%"></span><span style="--h:58%"></span><span style="--h:78%"></span><span style="--h:70%"></span><span style="--h:88%"></span></div>
+              <div class="metric-row"><span><i class="green-dot"></i> Availability <b>99%</b></span><span>P95 <b>&lt;500ms</b></span></div>
+              <div class="trace-line"><i></i><i></i><i></i></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="approach" class="section-shell section-block approach-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> How I work</p>
+          <h2>Start with the failure mode. End with an operable system.</h2>
+        </div>
+        <ol class="approach-grid">
+          <li class="reveal"><span>01</span><h3>Understand</h3><p>Clarify the workload, delivery bottleneck, risk boundary and measurable outcome.</p></li>
+          <li class="reveal delay-one"><span>02</span><h3>Design</h3><p>Document the architecture, trade-offs, security model and rollback path before implementation.</p></li>
+          <li class="reveal delay-two"><span>03</span><h3>Automate</h3><p>Build repeatable infrastructure and delivery workflows with visible quality gates.</p></li>
+          <li class="reveal"><span>04</span><h3>Verify</h3><p>Test failure behavior, deployment health and the operator's investigation path.</p></li>
+          <li class="reveal delay-one"><span>05</span><h3>Handover</h3><p>Leave clear documentation, operational commands and decisions the team can maintain.</p></li>
+        </ol>
+      </section>
+
+      <section id="about" class="about-section section-block">
+        <div class="section-shell about-grid">
+          <div class="about-intro reveal">
+            <p class="eyebrow"><span></span> About</p>
+            <h2>An application engineer's view of infrastructure.</h2>
+          </div>
+          <div class="about-copy reveal delay-one">
+            <p>I’m Kishore Choudhury, a senior software and platform engineer with more than nine years of experience across backend systems, distributed architectures and cloud-native delivery.</p>
+            <p>That application background shapes how I approach DevOps: infrastructure is not an isolated collection of YAML and services. It is the operating system for the software, the team and the release process around it.</p>
+            <div class="capability-list">
+              <span>Go</span><span>Java</span><span>Python</span><span>AWS</span><span>GCP</span><span>Kubernetes</span><span>Terraform</span><span>Docker</span><span>Helm</span><span>Apache Beam</span><span>OpenTelemetry</span><span>Prometheus</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section reveal">
+        <div>
+          <p class="eyebrow"><span></span> Start a conversation</p>
+          <h2>Have a delivery problem that needs a clear path forward?</h2>
+          <p>Share the current architecture, what is failing or slowing the team down, and the outcome you need.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:kishorechoudhurydeb@gmail.com?subject=DevOps%20consulting%20enquiry">Email Kishore</a>
+          <a class="button button-secondary" href="https://github.com/KishorePav" target="_blank" rel="noreferrer">View GitHub</a>
+          <small>India · Remote engagements</small>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p>© <span id="year"></span> Kishore Choudhury</p>
+      <p>DevOps is a focused consulting practice within a broader software and platform engineering career.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
