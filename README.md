@@ -12,7 +12,7 @@ This project intentionally remains separate from the broader `KishorePav.github.
 python3 -m http.server 8000
 ```
 
-Open <http://localhost:8000>.
+Open `http://localhost:8000`.
 
 ## Deployment
 
@@ -23,4 +23,3 @@ Expected URL:
 ```text
 https://kishorepav.github.io/devops-portfolio/
 ```
-
