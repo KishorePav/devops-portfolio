@@ -32,6 +32,7 @@
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
         <a href="#services">Services</a>
         <a href="#work">Case studies</a>
+        <a href="#experience">Experience</a>
         <a href="#approach">Approach</a>
         <a href="#about">About</a>
         <a class="nav-cta" href="#contact">Discuss a project</a>
@@ -123,7 +124,7 @@
           <div class="section-heading reveal">
             <p class="eyebrow"><span></span> Selected engineering work</p>
             <h2>Reference implementations built to production-minded standards.</h2>
-            <p>Every project is public, documented and validated by CI. Cloud execution is optional and clearly separated from local verification.</p>
+            <p>These are public reference implementations—not client deployments. Each repository is documented, inspectable and backed by reproducible CI evidence.</p>
           </div>
 
           <article class="case-study reveal">
@@ -133,9 +134,9 @@
               <h3>Production-ready EKS delivery platform</h3>
               <p class="case-summary">A secure path from source code to Amazon EKS with immutable images, infrastructure as code, hardened workloads and atomic Helm releases.</p>
               <dl class="case-results">
-                <div><dt>Delivery</dt><dd>Commit-SHA artifacts and OIDC</dd></div>
-                <div><dt>Reliability</dt><dd>Probes, HPA, PDB and rollback</dd></div>
-                <div><dt>Security</dt><dd>Non-root runtime and CI scanning</dd></div>
+                <div><dt>CI evidence</dt><dd>4 independent checks passing</dd></div>
+                <div><dt>Coverage</dt><dd>App, image, Helm and Terraform</dd></div>
+                <div><dt>Controls</dt><dd>Probes, HPA, PDB and non-root runtime</dd></div>
               </dl>
               <a class="text-link" href="https://github.com/KishorePav/devops-portfolio-platform" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
             </div>
@@ -154,9 +155,9 @@
               <h3>Dataflow Flex Template delivery lifecycle</h3>
               <p class="case-summary">A generic streaming pipeline and deployment workflow that versions Flex Templates, validates events and safely replaces an active named job.</p>
               <dl class="case-results">
-                <div><dt>Streaming</dt><dd>Pub/Sub to validated GCS routes</dd></div>
+                <div><dt>CI evidence</dt><dd>4 independent checks passing</dd></div>
+                <div><dt>Coverage</dt><dd>Python, image, Terraform and shell</dd></div>
                 <div><dt>Lifecycle</dt><dd>Detect, cancel, wait and redeploy</dd></div>
-                <div><dt>Configuration</dt><dd>Environment data supplied at CD</dd></div>
               </dl>
               <a class="text-link" href="https://github.com/KishorePav/gcp-dataflow-flex-template-cicd" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
             </div>
@@ -175,9 +176,9 @@
               <h3>Cloud-native observability and SLO lab</h3>
               <p class="case-summary">A two-service reliability lab connecting RED metrics, distributed traces and structured logs to explicit availability and latency objectives.</p>
               <dl class="case-results">
-                <div><dt>Availability</dt><dd>99% success objective</dd></div>
-                <div><dt>Latency</dt><dd>P95 below 500 ms objective</dd></div>
-                <div><dt>Response</dt><dd>Controlled failure investigation</dd></div>
+                <div><dt>CI evidence</dt><dd>3 independent checks passing</dd></div>
+                <div><dt>SLO model</dt><dd>99% success and P95 &lt;500 ms</dd></div>
+                <div><dt>Signals</dt><dd>Metrics, traces and structured logs</dd></div>
               </dl>
               <a class="text-link" href="https://github.com/KishorePav/cloud-native-observability-lab" target="_blank" rel="noreferrer">Explore repository <span>↗</span></a>
             </div>
@@ -189,6 +190,32 @@
             </div>
           </article>
         </div>
+      </section>
+
+      <section id="experience" class="section-shell section-block experience-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> Production experience</p>
+          <h2>Real platform work, presented without client-confidential detail.</h2>
+          <p>The public projects above demonstrate implementation quality. The experience below reflects professional work across production environments and is intentionally described at a general level.</p>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card reveal">
+            <span>01</span>
+            <h3>Cloud platforms</h3>
+            <p>Hands-on administration and delivery across AWS and GCP, including Kubernetes, networking, identity, compute, data and managed services.</p>
+          </article>
+          <article class="experience-card reveal delay-one">
+            <span>02</span>
+            <h3>Delivery automation</h3>
+            <p>Professional CI/CD work with Azure DevOps, Jenkins, GitHub Actions and GitLab CI, supported by Terraform, Ansible and CloudFormation.</p>
+          </article>
+          <article class="experience-card reveal delay-two">
+            <span>03</span>
+            <h3>Application-aware operations</h3>
+            <p>More than nine years building backend and distributed systems, connecting application behavior to deployment, reliability and observability decisions.</p>
+          </article>
+        </div>
+        <p class="evidence-note reveal"><strong>Evidence policy:</strong> CI results and repository features are directly verifiable. Production outcomes are only published when they can be defended and anonymized.</p>
       </section>
 
       <section id="approach" class="section-shell section-block approach-section">
